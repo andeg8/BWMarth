@@ -1,5 +1,6 @@
 body {
   background:#ff1d00;
+  background:url(logo.jpg);
 }
 .nav ul {
     list-style-type: none;
