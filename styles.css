@@ -2,7 +2,7 @@ body {
   background: #ff1d00;
   background: url(logo.jpg);
   background-repeat: no-repeat;
-  background-position: center; 
+  background-position: center-bottom; 
 }
 .nav ul {
     list-style-type: none;
