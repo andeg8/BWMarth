@@ -1,6 +1,6 @@
 document.getElementById("animate");
 function setup() {
-createCanvas (450,450,WEBGL);
+createCanvas (300,300,WEBGL);
   
 }
 function draw() {
