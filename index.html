@@ -27,6 +27,28 @@
       <li>No Code-snobs: When someone asks for help, we meet them at their level. We understand that everyone learns differently and that we are all at different levels of coding expertise.</li>
       <li>Open Source: We share our creations openly so that others might learn from our work and build upon it.</li>
     </ul>
-    <div id="animate">test</div>
+    <script Lauguage="javascript">
+      
+      function setup() {
+      createCanvas (500,500,WEBGL);
+  
+      }
+      function draw() {
+      ellipsoid(99,99,99,99);
+      rotateX(frameCount*0.10);
+      rotateY(frameCount*0.01);
+      box(100,100,100,100);
+      translate( 200 , 0 , 0);
+      ellipsoid(40,40,40,40);
+      translate( -400 , 0 , 0);
+      ellipsoid(40,40,40,40 );
+      rotateX(frameCount*0.10);
+      rotateY(frameCount*0.0);
+      translate(200,200,0);
+      ellipsoid(40,40,40,40);
+      translate( 0,-400,0);
+      ellipsoid(40,40,40,40);
+      }
+    </script>
   </body>
 </html>
