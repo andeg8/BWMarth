@@ -1,5 +1,7 @@
-body{
-    background:#b10000;
+body {
+  background:#ff1d00;
+  background:url(logo.jpg);
+  background-repeat:no-repeat;
 }
 .nav ul {
     list-style-type: none;
