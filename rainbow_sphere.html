@@ -1,9 +1,11 @@
 <html>
-  <head></head>
+  <head>
+    <script language="javascript" type="text/javascript" src="p5.min.js"></script>
+  </head>
   <body>
     <script>
      function setup() {
-        createCanvas (400,400,WEBGL);
+        createCanvas (windowWidth,windowHeight,WEBGL);
       }
       function draw() {
         ellipsoid(99,99,99,99);
@@ -24,9 +26,5 @@
       setup();
       draw();
     </script>
-    
-    
-    
-    
   </body>
 </html>
